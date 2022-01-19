@@ -1,0 +1,68 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0;
+    /* min-width: 400px; */
+    border-bottom: 1px ridge;
+}
+
+.footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: rgb(92, 119, 80);
+    color: floralwhite;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    color: floralwhite;
+    background-color: rgb(45, 129, 83);
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+}
+
+.footer a {
+    color: floralwhite;
+}
+
+.footer address {
+    color:floralwhite;
+}
+
+.navbar-dark {
+    background-color: #25502e;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 400ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 400ms ease-out;
+}
+
+.bg-comment {
+    background :rgb(248, 250, 249);
+}
